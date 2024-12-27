@@ -1,0 +1,52 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Go modules
+vendor/
+
+# Go build artifacts
+*.a
+*.o
+*.cgo1.go
+*.cgo2.c
+
+# Test binary, coverage data, and result files
+*.test
+*.cover
+*.cov
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+Godeps/
+
+# Environment variables file
+.env
+
+# Node modules (if using Node.js for frontend)
+node_modules/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
